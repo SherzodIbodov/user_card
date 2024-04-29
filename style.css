@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: " Anybody", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div {
+
+}
+.div:hover{
+    transition: 0.5s;
+    box-shadow: 16px 16px 0 0 #000;
+}
+.container {
+    padding: 24px;
+}
+img{
+    max-width: 366px;
+}
+.paragraph {
+  margin-top: 24px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: left;
+  color: #111;
+  border-radius: 4px;
+  padding: 4px 12px;
+  max-width: 100px;
+  height: 29px;
+  background: #f4d04e;
+}
+.number {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111;
+}
+.title {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  color: #111;
+  cursor: pointer;
+}
+.title:hover{
+    color: #F4D04E;
+
+}
+
+.user_name {
+    margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f7f7f;
+}
+.user_name{
+font-size: 14px;
+font-weight: 800;
+line-height: 21px;
+text-align: left;
+}
+
+
+
+@media screen and (max-width:327px){
+    .div{
+        padding: 15px;
+    }
+    .container{
+        width: 279px;
+    }
+}
